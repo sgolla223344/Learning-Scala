@@ -1,3 +1,4 @@
+// program 1
 class demoClass {
   val x = 4    // var - mutable(can change to value of variable), val - immutable(can not change)
   val y = 8
