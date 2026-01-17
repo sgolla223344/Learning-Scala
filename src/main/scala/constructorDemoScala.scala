@@ -1,6 +1,6 @@
 //program no 1
 
-class demoClass1 {
+class demoClass3 {
   val x = 5
   val y = 6
 
