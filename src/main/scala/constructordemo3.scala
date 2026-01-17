@@ -1,6 +1,6 @@
 // program : 3 : Default parameters in constructor
 
-class demoClass4(val a:Int = 99, val b : Double = 00.00, val c : String = "Hello Scala") {
+class demoClass4(val a:Int = 99, val b : Double = 88.88, val c : String = "Hello Scala") {
   val x = a
   val y = b
   val z = c
