@@ -1,4 +1,4 @@
-// program 2 : Default parameters in constructor
+
 class demoClass2(val a:Int, val b:Double, val c:String) {
   val x = a
   val y = b
