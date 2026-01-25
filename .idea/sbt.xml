@@ -7,8 +7,13 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
+<<<<<<< HEAD
             <option value="C:\Users\saidu\Scala Claas\scala practice" />
             <option value="C:\Users\saidu\Scala Claas\scala practice\project" />
+=======
+            <option value="C:\Users\saidu\Scala Claas\scala practice\Stringdemo" />
+            <option value="C:\Users\saidu\Scala Claas\scala practice\Stringdemo\project" />
+>>>>>>> a9463df (Reslove merge conflict)
           </set>
         </option>
         <option name="sbtVersion" value="1.12.0" />

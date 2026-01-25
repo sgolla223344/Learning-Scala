@@ -4,5 +4,9 @@ ThisBuild / scalaVersion := "3.8.0"
 
 lazy val root = (project in file("."))
   .settings(
+<<<<<<< HEAD
     name := "scala practice"
+=======
+    name := "Stringdemo"
+>>>>>>> a9463df (Reslove merge conflict)
   )
