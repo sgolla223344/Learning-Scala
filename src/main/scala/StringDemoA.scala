@@ -1,3 +1,5 @@
+import java.lang.reflect.Modifier
+
 object StringDemoA {
   def main(args: Array[String]): Unit = {
 
@@ -58,6 +60,17 @@ object StringDemoA {
 
     var name = "PM Modi"
     println("Hello " + name + ", How are you")   // using concat
-    println("Hello $name, How are you")          // usings interpolar. widely used
+    println("Hello $name, How are you")          // usings interpolator. widely used
+
+    // 2. 'f' interpolator
+    name = "PM Modi"
+    var salary = 20000.2
+    println(f"Name is $name%S and salary is $salary%8.2f and designation is PM")
+
+    //3. Raw Interpolator -- same as s interpolator but  does not perform escaping. escaping  - /n /t
+
+    println(s"Hello world!\nHow are you?")
+    println(raw"Hello world!\nHow a re you?")
+
     }
 }
