@@ -43,6 +43,21 @@ object StringDemoA {
     var milageOfCar = 9.6
     printf("Name of the car is %s and cost of the car is %d and milage of the car is %f", nameOfCar, costOfCar, milageOfCar)
 
+  // Multi Line String  Use 3 double inverted commas """ string """ also use pipe symbol and stripMargin function for orientation
+    var multiLineString =
+         """
+        |Hello
+        |world
+        |How
+        |Are you
+        |""".stripMargin
+        println(multiLineString)
 
-  }
+    // String Interpolation
+    // 1. 's' String Interpolation
+
+    var name = "PM Modi"
+    println("Hello " + name + ", How are you")   // using concat
+    println("Hello $name, How are you")          // usings interpolar. widely used
+    }
 }

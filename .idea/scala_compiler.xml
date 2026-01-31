@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ScalaCompilerConfiguration">
     <option name="separateProdTestSources" value="true" />
-<<<<<<< HEAD
+      HEAD
     <profile name="sbt 1" modules="scala practice,scala practice.main,scala practice.test" />
 =======
     <profile name="sbt 1" modules="Stringdemo,Stringdemo.main,Stringdemo.test" />
